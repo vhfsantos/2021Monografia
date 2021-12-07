@@ -1,0 +1,2 @@
+NC_002608.1	tpg	gene	111987	112532	.	+	.	ID=gene-VNG_6140G;Name=tbpC1b;gbkey=Gene;gene=tbpC1b;gene_biotype=protein_coding;locus_tag=VNG_6140G
+NC_002608.1	tpg	CDS	111987	112532	.	+	0	ID=cds-DAC79786.1;Parent=gene-VNG_6140G;Dbxref=NCBI_GP:DAC79786.1;Name=DAC79786.1;Note=revised for consistency with H.salinarum strain R1;gbkey=CDS;gene=tbpC1b;locus_tag=VNG_6140G;product=TATA-binding transcription initiation factor;protein_id=DAC79786.1;transl_table=11

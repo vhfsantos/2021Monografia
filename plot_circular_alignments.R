@@ -1,4 +1,4 @@
-library(circlize)
+ASM680v1library(circlize)
 
 # NC_002608.1 1 365425
 # NC_002607.1 1 2014239
@@ -7,10 +7,10 @@ library(circlize)
 # Function to plot with Circlize
 GetPlot = function(replicon, size, cols){
         # read coverage files
-        SC = read.table(paste0("TK_vs_OLDREF.bedgraph.", replicon))
-        bc02 = read.table(paste0("bc02_vs_OLDREF.bedgraph.", replicon))
-        bc03 = read.table(paste0("bc03_vs_OLDREF.bedgraph.", replicon))
-        bc04 = read.table(paste0("bc04_vs_OLDREF.bedgraph.", replicon))
+        SC = read.table(paste0("NRC1_vs_ASM680v1.bedgraph.", replicon))
+        bc02 = read.table(paste0("dura3_vs_ASM680v1.bedgraph.", replicon))
+        bc03 = read.table(paste0("dsmap1_vs_ASM680v1.bedgraph.", replicon))
+        bc04 = read.table(paste0("drnr_vs_ASM680v1.bedgraph.", replicon))
         
         # parse columns
         colnames(SC) = c("chr", "start", "end", "value1")
